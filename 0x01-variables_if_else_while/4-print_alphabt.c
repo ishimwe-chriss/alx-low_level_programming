@@ -6,14 +6,17 @@
  */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
-{
-if (a == 'q' || a == 'e')
-{
-}
-continue;
-}
-putchar (a);
-return (0);
+     char low, e, q;
+
+     
+     e = 'e';
+     q = 'q';
+
+    for (low = 'a'; low <= 'z'; low++)
+    {
+             if (low != 'e' && low != 'q')
+		     putchar(low)
+    }
+                       printf("\n");
+     return (0);
 }
