@@ -1,9 +1,9 @@
-#include<'main.h'>
+#include"main.h"  
 /**
  * main - Entry point
  * print_alphabet_x10 -> prints the lowercase alphabets
- */
-void print_alphabet_x10(void)
+ **/
+void print_alphabet_x10(void);
 
 {
 int i;
@@ -11,7 +11,7 @@ char c;
 
 for (i = 0; i < 10; i++)
 {
-for(c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 
 _putchar(c);
 _putchar('\n');
