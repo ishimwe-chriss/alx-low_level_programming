@@ -1,6 +1,6 @@
 #include "main.h'"
 /**
- * print_numbers -  checks for checks for a digit (0 through 9).
+ * print_numbers -  print numbers
  *
  * Return: Always 0.
  */
@@ -15,5 +15,5 @@ void print_numbers(void)
 	i++;
 	}
 	_putchar('\n');
-	return: 0
+	return : (0)
 }
