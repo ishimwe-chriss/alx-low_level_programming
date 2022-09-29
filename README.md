@@ -1,1 +1,1 @@
-0x0F. C - Function pointers
+0x17. C - Doubly linked lists
